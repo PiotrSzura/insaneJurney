@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<garage>
+  <vehicles>
+    <vehicle type="BUS" name="lbus" seats = "49">
+      <fuelConsumptions>
+        <fuelConsumption name="80">19.9</fuelConsumption>
+        <fuelConsumption name="120">28</fuelConsumption>
+      </fuelConsumptions>
+    </vehicle>
+    <vehicle type="BUS" name="sbus" seats = "29">
+      <fuelConsumptions>
+        <fuelConsumption name="80">14.9</fuelConsumption>
+        <fuelConsumption name="120">20</fuelConsumption>
+      </fuelConsumptions>
+    </vehicle>
+    <vehicle type="CAR" name="opas" seats = "5">
+      <fuelConsumptions>
+        <fuelConsumption name="80">5</fuelConsumption>
+        <fuelConsumption name="120">8</fuelConsumption>
+      </fuelConsumptions>
+    </vehicle>
+    <vehicle type="CAR" name="opza" seats = "7">
+      <fuelConsumptions>
+        <fuelConsumption name="80">5.2</fuelConsumption>
+        <fuelConsumption name="120">10</fuelConsumption>
+      </fuelConsumptions>
+    </vehicle>
+    <vehicle type="MOTORBIKE" name="bike" seats = "2">
+      <fuelConsumptions>
+        <fuelConsumption name="80">6</fuelConsumption>
+        <fuelConsumption name="120">6.5</fuelConsumption>
+      </fuelConsumptions>
+    </vehicle>
+  </vehicles>
+</garage>
