@@ -6,7 +6,7 @@ using InsaneJourney.Calculator.Model;
 
 namespace InsaneJourney.Calculator.Calculation.CalculationRules
 {
-    class FuelConsumptionCalculationRule : ICalculationRule
+    public class FuelConsumptionCalculationRule : ICalculationRule
     {
         public string CalculationName {
             get { return "FuelConsumptionCalculationRule"; }
